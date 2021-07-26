@@ -9,7 +9,7 @@ jobs:
       - name: Compile LaTeX document
         uses: akimanabe/latex-action@master
         with:
-          working_directory: paper/
+          working_directory: ./
           root_file: tex_practice.tex
           args: ""
       - name: Upload pdf
