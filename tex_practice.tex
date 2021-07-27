@@ -9,6 +9,8 @@
 \usepackage{pxjahyper}
 \usepackage{cite}
 \usepackage{booktabs}
+\usepackage{natbib}
+\bibpunct[:]{(}{)}{,}{a}{}{,}
 \renewcommand{\figurename}{Fig.}
 \renewcommand{\tablename}{Table }
 
@@ -39,7 +41,7 @@ L_t = L_\infty (1-\exp(-K(t-t_0)))
 
 This is a simple schematic of von Bertalanffy trajectory which was calculated based on equation \ref{eqn:vb}.
 Figure \ref{fig:vb} shows a simple growth up to asymptotic growth.
-However, von Bertalanffy growth function (VBGF) was considered as not appropriate by the recent study (~\cite{manabe2018-novel})
+However, von Bertalanffy growth function (VBGF) was considered as not appropriate by the recent study \citep{manabe2018-novel}.
 
 \begin{figure}
   \includegraphics[width = \linewidth]{figs/samplevb.png}
