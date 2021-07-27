@@ -13,6 +13,7 @@
 \renewcommand{\tablename}{Table }
 
 \begin{document}
+\bibliographystyle{elsarticle-harv}
 
 \title{My sample TeX file}
 \author{akimanabe}
@@ -37,13 +38,14 @@ L_t = L_\infty (1-\exp(-K(t-t_0)))
 \section{Result}
 
 This is a simple schematic of von Bertalanffy trajectory which was calculated based on equation \ref{eqn:vb}.
-
+Figure \ref{fig:vb} shows a simple growth up to asymptotic growth.
+However, von Bertalanffy growth function (VBGF) was considered as not appropriate by the recent study (\cite{manabe2018-novel})
 \begin{figure}
   \includegraphics[width = \linewidth]{figs/samplevb.png}
   \caption{A schematic of growth trajectory by equation \ref{eqn:vb}}
   \label{fig:vb}
 \end{figure}
 
-Figure \ref{fig:vb} shows a simple growth up to asymptotic growth.
+\bibliography{refs}
 
 \end{document}
